@@ -1,0 +1,302 @@
+:root {
+    --first-text-color: #212121;
+    --second-text-color: #757575;
+    --third-text-color: #ffffff;
+    --first-logo-color: #000000;
+    --second-logo-color: #FFFFFF;
+    --accent-color: #2196F3;
+    --hero-color: #FFFFFF;
+    --main-title-color:  #212121; 
+    --second-title-color: #212121; 
+    --links-color: rgba(255, 255, 255, 0.6); 
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+}
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+button {
+    cursor: pointer;
+    font-family: inherit;
+}
+
+img {
+    display: block;
+}
+address {
+    font-style: normal;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 0.02em;
+}
+
+
+.list {
+    list-style: none;
+}
+
+.link {
+    text-decoration: none;
+}
+
+.visually-hidden {
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    margin: -1px;
+}
+
+/*-------Хедер-------*/
+.header-logo {
+    font-family: Raleway;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    color: var(--first-logo-color);
+}
+
+.header-link {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: var(--first-text-color); 
+}
+
+.header-link:hover,
+.header-link:focus {
+    color: var(--accent-color);
+}
+.header-tel {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: var(--second-text-color);
+}
+.header-mailto {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: var(--second-text-color);
+}
+.header-tel:active,
+.header-tel:hover,
+.header-tel:focus {
+    color: var(--accent-color);
+}
+.header-mailto:active,
+.header-mailto:hover,
+.header-mailto:focus {
+    color: var(--accent-color);
+}
+.header-link-style {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: var(--second-text-color);
+}
+
+/*-------Герой-------*/
+
+.hero-title {
+
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--hero-color);
+    background-color: var(--second-text-color);
+}
+
+.hero-btn {
+    font-weight: 700;
+    font-family: inherit;
+    font-size: 16px;
+    line-height: 1.87;
+    display: flex;
+    border: none;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+    background-color: var(--accent-color);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    color: var(--third-text-color);
+}
+
+.hero-btn:active {
+    color: var(--third-text-color);
+}
+
+/*-------СофтСкилс-------*/
+
+.soft-title-text {
+
+}
+.soft-pre-title {
+
+}
+.soft-list {
+
+}
+.soft-title {
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--main-title-color);
+}
+.soft-after-title{
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: var(--second-text-color)
+}
+
+/*-------Эбаут-------*/
+
+.about-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--second-title-color)
+}
+.about-list {
+
+}
+.about-item{
+
+}
+/*-------ТимГелери-------*/
+
+.galery-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--second-title-color)
+}
+.galery-list {
+
+}
+.galery-item {
+
+}
+.galery-text {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.18;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--main-title-color);
+}
+.galery-eng-text {
+    font-size: 16px;
+    line-height: 1.18;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--second-text-color);
+}
+
+/*-------Портфолио-------*/
+
+.portfolio-cards {
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+}
+.portfolio-btn {
+    font-weight: 500;
+    font-family: inherit;
+    font-size: 16px;
+    line-height: 1.62;
+    text-align: center;
+    align-items: center;
+    border: none;
+    display: flex;
+    border-radius: 4px;
+    letter-spacing: 0.03em;
+    background: #F5F4FA;
+    color: var(--first-text-color);
+    
+}
+.portfolio-btn:active,
+.portfolio-btn:hover,
+.portfolio-btn:focus {
+    border-radius: 4px;
+    background-color: var(--accent-color);
+    color: var(--third-text-color);
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+}
+
+.portfolio-titles {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2.0;
+    letter-spacing: 0.06em;
+    color: var(--first-text-color);   
+}
+.portfolio-after-titles {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.87;
+    letter-spacing: 0.03em;
+    color: var(--second-text-color);
+
+}
+/*-------Футер-------*/
+.footer {
+    background-color: var(--second-title-color);
+}
+.footer-logo {
+    font-family: Raleway;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    color: var(--third-text-color);
+}
+.color-logo {
+    color: var(--accent-color);
+}
+.footer-link {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: var(--links-color);
+}
+.footer-address-color {
+    color: var(--third-text-color);
+}
+.footer-address:active,
+.footer-address:hover,
+.footer-address:focus {
+    color: var(--accent-color);
+}

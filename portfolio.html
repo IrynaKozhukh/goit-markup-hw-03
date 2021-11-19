@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WebStudio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+        integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap">
+    <link rel="stylesheet" href="./css/styles.css"/>
+</head>
+<body>
+
+<!-- Шапка сайта -->
+
+<header class="header">
+        <nav class="header-navigation">
+        <a class="header-logo link" href=""><span class="color-logo">Web</span>Studio</a>
+        <ul class="header-list list">
+            <li class="header-item "><a href="./index.html" class="header-link link">Студия</a></li>
+            <li class="header-item"><a current href="./portfolio.html" class="header-link link">Портфолио</a></li>
+            <li class="header-item"><a href="" class="header-link link">Контакты</a></li>
+        </ul>
+        </nav> 
+        <ul class="header-link-style list">
+            <li><a class="header-mailto link" href="mailto:info@example.com">info@example.com</a></li>
+            <li><a class="header-tel link" href="tel:+380991111111">+38 099 111 11 11</a></li>
+        </ul>
+</header>
+<main>
+<!-- Мейн-Батн-->
+<h1 class="soft-title-text visually-hidden">Портфолио</h1>
+<section class="portfolio">
+    <ul class="list">
+        <li><button class="portfolio-btn" type="button">Все</button></li>
+        <li><button class="portfolio-btn" type="button">Веб-сайты</button></li>
+        <li><button class="portfolio-btn" type="button">Приложения</button></li>
+        <li><button class="portfolio-btn" type="button">Дизайн</button></li>
+        <li><button class="portfolio-btn" type="button">Маркетинг</button></li>
+    </ul>
+<!-- Мейн-Портфолио-->
+<ul class="list">
+    <li class="portfolio-item">
+        <a class="link" href="">
+            <img class="portfolio-cards" src="./images/img-1.jpg" alt="Ноутбук с изображениями трех портфолио" width="370" height="294"/>
+            <h2 class="portfolio-titles">Технокряк</h2>
+            <p class="portfolio-after-titles">Веб-сайт</p>
+        </a>
+    </li>
+    <li class="portfolio-item">
+        <a class="link" href="">
+            <img src="./images/img-2.jpg" alt="Два баскетболиста в прыжке" width="370" height="294" />
+            <h2 class="portfolio-titles">Постер<span lang="en">Orlean vs Golden Star</span></h2>
+            <p class="portfolio-after-titles">Дизайн</p>
+        </a>
+    </li>
+    <li class="portfolio-item">
+        <a class="link" href="">
+            <img src="./images/img-3.jpg" alt="Логотип ресторана Seafood" width="370" height="294" />
+            <h2 class="portfolio-titles">Ресторан <span lang="en">Seafood</span></h2>
+            <p class="portfolio-after-titles">Приложение</p>
+        </a>
+    </li>
+    <li class="portfolio-item">
+        <a class="link" href="">
+            <img src="./images/img-4.jpg" alt="Черные наушники" width="370" height="294"/>
+            <h2 class="portfolio-titles">Проект<span lang="en">Prime</span></h2>
+            <p class="portfolio-after-titles">Маркетинг</p>
+        </a>
+    </li>
+    <li class="portfolio-item">
+        <a class="link" href="">
+            <img src="./images/img-5.jpg" alt="Лежат две коробки белого и коричневого цвета с надписями и логотипами" width="370" height="294"/>
+            <h2 class="portfolio-titles">Проект<span lang="en">Boxes</span></h2>
+            <p class="portfolio-after-titles">Приложение</p>
+        </a>
+    </li>
+    <li class="portfolio-item">
+        <a class="link" href="">
+            <img src="./images/img-6.jpg" alt="Монитор с изображением веб-сайта" width="370" height="294"/>
+            <h2 class="portfolio-titles" lang="en">Inspiration has no Borders</h2>
+            <p class="portfolio-after-titles">Веб-сайт</p>
+        </a>
+    </li>
+    <li class="portfolio-item">
+        <a class="link" href="">
+            <img src="./images/img-7.jpg" alt="Раскрытый журнал с дизайном в голубо-бело-серых тонах" width="370" height="294"/>
+            <h2 class="portfolio-titles">Издание<span lang="en">Limited Edition</span></h2>
+            <p class="portfolio-after-titles">Дизайн</p>
+        </a>
+    </li>
+    <li class="portfolio-item">
+        <a class="link" href="">
+            <img src="./images/img-8.jpg" alt="Бирка с надписью: LAB EL TAG" width="370" height="294"/>
+            <h2 class="portfolio-titles">Проект<span lang="en">LAB</span></h2>
+            <p class="portfolio-after-titles">Маркетинг</p>
+        </a>
+    </li>
+    <li class="portfolio-item">
+        <a class="link" href="">
+            <img src="./images/img-9.jpg" alt="Ноутбук с изображением веб-сайта Growing Business" width="370" height="294"/>
+            <h2 class="portfolio-titles" lang="en">Growing Business</h2>
+            <p class="portfolio-after-titles">Приложение</p>
+        </a>
+    </li>
+</ul>
+</section>
+
+</main>
+<!-- Футер -->
+
+    <footer class="footer">
+        <a class="footer-logo link" href=""> <span class="color-logo">Web</span>Studio</a>
+    <address class="address-link">
+        <ul class="footer-link list ">
+            <li>
+                <a class="footer-address-color link" href="https://goo.gl/maps/vSzQUJ8hVPghcMWJ7" 
+                target="_blank" rel="noopener noreferrer">г. Киев, пр-т Леси Украинки,
+                26</a></li>
+            <li><a class="footer-link header-mailto link" href="mailto:info@example.com">info@example.com</a></li>
+            <li><a class="footer-link header-tel link" href="tel:+380991111111">+38 099 111 11 11</a></li>
+        </ul>
+    </address>
+    </footer>
+</body>
+</html>
