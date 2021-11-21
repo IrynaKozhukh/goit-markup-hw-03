@@ -18,6 +18,7 @@
 <!-- Шапка сайта -->
 
 <header class="header">
+    <div class="container nav">
         <nav class="header-navigation">
         <a class="header-logo link" href=""><span class="color-logo">Web</span>Studio</a>
         <ul class="header-list list">
@@ -30,6 +31,7 @@
             <li><a class="contacts link" href="mailto:info@example.com">info@example.com</a></li>
             <li><a class="contacts link" href="tel:+380991111111">+38 099 111 11 11</a></li>
         </ul>
+        </div>
 </header>
 
     <main> 
@@ -37,14 +39,17 @@
 <!-- Герой -->
 
     <section class="hero hero-title">
+        <div class="container">
         <h1>Эффективные решения для вашего бизнеса</h1>
         <button class="hero-btn" type="button">Заказать услугу</button>
+        </div>
     </section>
 
 <!--СофтСкилы компании-->
 
     <section class="soft">
         <h2 class="soft-title-text visually-hidden">Преимущества в сотрудничестве</h2>
+        <div class="container">
         <ul class="soft-list list">
         <li class="soft-pre-title">
             <h3 class="soft-title">Внимание к деталям</h3>
@@ -63,11 +68,13 @@
             <p class="soft-after-title">Значимость этих проблем настолько очевидна, что реализация плановых заданий.</p>
         </li>
         </ul>
+        </div>
     </section>
 
 <!--Эбаут-->
 
     <section class="about">
+        <div class="container">
     <h2 class="about-title">Чем мы занимаемся</h2>
     <ul class="about-list list">
         <li class="about-item">
@@ -96,56 +103,76 @@
             />
         </li>
     </ul>
+    </div>
     </section>
     
 <!--Тим-->
 
     <section class="galery">
+        <div class="container">
         <h2 class="galery-title">Наша команда</h2>
         <ul class="galery-list list">
             <li class="galery-item">
-                <img src="./images/igor.jpg" 
+                <div class="card">
+                <img class="images" src="./images/igor.jpg" 
                 alt="Мужчина в очках с бородой улыбается." 
                 width="270" 
                 height="260" 
                 />
+                <div class="card-body">
                 <h3 class="galery-text">Игорь Демьяненко</h3>
                 <p class="galery-eng-text" lang="en">Product Designer</p>
+                </div>
+                </div>
             </li>
             <li class="galery-item">
-                <img src="./images/olga.jpg" 
+                <div class="card">
+                <img class="images" src="./images/olga.jpg" 
                 alt="Девушка-блондинка сияет улыбкой." 
                 width="270" 
                 height="260" 
                 />
+                <div class="card-body">
                 <h3 class="galery-text">Ольга Репина</h3>
                 <p class="galery-eng-text" lang="en">Frontend Developer</p>
+                </div>
+                </div>
             </li>
             <li class="galery-item">
-                <img src="./images/nikolai.jpg"
+                <div class="card">
+                <img class="images" src="./images/nikolai.jpg"
                 alt="Рыжеволосый парень смотрит в сторону илыбаясь." 
                 width="270"
                 height="260" 
                 />
+                <div class="card-body">
                 <h3 class="galery-text">Николай Тарасов</h3>
                 <p class="galery-eng-text" lang="en">Marketing</p>
+                </div>
+                </div>
             </li>
             <li class="galery-item">
-                <img
+                <div class="card">
+                <img class="images"
                 src="./images/michail.jpg"
                 alt="Мужчина в очках подозрительно ухмыляется."
                 width="270"
                 height="260"
                 />
+                <div class="card-body">
                 <h3 class="galery-text">Михаил Ермаков</h3>
                 <p class="galery-eng-text" lang="en">UI Designer</p>
+                </div>
+                </div>
             </li>
-        </ul>    
+        </ul>
+        </div>
     </section>
     </main>
 <!-- Футер -->
 
     <footer class="footer">
+        <div class="container">
         <a class="footer-logo link" href=""><span class="color-logo">Web</span>Studio</a>
     <address class="address-link">
         <ul class="footer-link list">
@@ -156,6 +183,7 @@
             <li><a class="footer-link contacts link" href="tel:+380991111111">+38 099 111 11 11</a></li>
         </ul>
     </address>
+    </div>
     </footer>
 </body>
 </html>

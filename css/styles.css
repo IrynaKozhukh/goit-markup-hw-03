@@ -40,9 +40,66 @@ address {
 body {
     font-family: 'Roboto', sans-serif;
     letter-spacing: 0.02em;
+    color: var(--second-text-color);
+    background-color: var(--hero-color);
 }
 
+.container {
+    width: 1200px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+.section {
+    padding-top: 94px;
+    padding-bottom: 94px;
+    text-align: center;
+}
+.images {
+    display: block;
+}
+.section-nopaddingtop {
+    padding-top: 0;
+}
+/* Ссылки */
+.link {
+  text-decoration: none;
+}
+.lists {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding: 0;
+  list-style: none;
+}
+.header {
+  border-bottom: 1px solid var(--line-color);
+}
+/* Навигация */
+.container.nav {
+  min-height: 80px;
+}
+.nav,
+.menu {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
 
+.container.nav > .nav {
+  margin-right: auto;
+}
+
+.menu-item > .link {
+  display: block;
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+
+.menu > .menu-item:not(:last-child) {
+  margin-right: 50px;
+} 
+body {
+  margin-right: 30px;
+}
 .list {
     list-style: none;
 }
@@ -177,7 +234,10 @@ body {
 
 }
 /*-------ТимГелери-------*/
-
+.card-body {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
 .galery-list {
 
 }
@@ -185,6 +245,7 @@ body {
 
 }
 .galery-text {
+    margin: 0 0 10px 0;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.18;
@@ -254,6 +315,7 @@ body {
 }
 /*-------Футер-------*/
 .footer {
+    padding: 60px 0;
     background-color: #2F303A;;
 }
 .footer-logo {
@@ -275,5 +337,7 @@ body {
     color: var(--links-color);
 }
 .footer-address-color {
+    padding: 0;
+    margin-bottom: 9px;
     color: var(--third-text-color);
 }
