@@ -85,30 +85,7 @@ body {
 .header-link:focus {
     color: var(--accent-color);
 }
-.header-tel {
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 1.14;
-    letter-spacing: 0.02em;
-    color: var(--second-text-color);
-}
-.header-mailto {
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 1.14;
-    letter-spacing: 0.02em;
-    color: var(--second-text-color);
-}
-.header-tel:active,
-.header-tel:hover,
-.header-tel:focus {
-    color: var(--accent-color);
-}
-.header-mailto:active,
-.header-mailto:hover,
-.header-mailto:focus {
-    color: var(--accent-color);
-}
+.contacts,
 .header-link-style {
     font-weight: 500;
     font-size: 14px;
@@ -116,11 +93,17 @@ body {
     letter-spacing: 0.02em;
     color: var(--second-text-color);
 }
+.contacts:active,
+.contacts:hover,
+.contacts:focus {
+    color: var(--accent-color);
+}
+
+
 
 /*-------Герой-------*/
 
 .hero-title {
-
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
@@ -128,7 +111,7 @@ body {
     letter-spacing: 0.06em;
     text-transform: uppercase;
     color: var(--hero-color);
-    background-color: var(--second-text-color);
+    background-color: #2F303A;
 }
 
 .hero-btn {
@@ -178,7 +161,8 @@ body {
 
 /*-------Эбаут-------*/
 
-.about-title {
+.about-title,
+.galery-title {
     font-weight: 700;
     font-size: 36px;
     line-height: 1.16;
@@ -194,14 +178,6 @@ body {
 }
 /*-------ТимГелери-------*/
 
-.galery-title {
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 1.16;
-    text-align: center;
-    letter-spacing: 0.03em;
-    color: var(--second-title-color)
-}
 .galery-list {
 
 }
@@ -225,7 +201,12 @@ body {
 }
 
 /*-------Портфолио-------*/
-
+.portfolio {
+    background-color: #F5F4FA;
+}
+.portfolio-item {
+    background-color: #FFFFFF;
+}
 .portfolio-cards {
     box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
     0px 2px 2px rgba(0, 0, 0, 0.12);
@@ -245,6 +226,7 @@ body {
     color: var(--first-text-color);
     
 }
+.current-btn,
 .portfolio-btn:active,
 .portfolio-btn:hover,
 .portfolio-btn:focus {
@@ -272,7 +254,7 @@ body {
 }
 /*-------Футер-------*/
 .footer {
-    background-color: var(--second-title-color);
+    background-color: #2F303A;;
 }
 .footer-logo {
     font-family: Raleway;
@@ -294,9 +276,4 @@ body {
 }
 .footer-address-color {
     color: var(--third-text-color);
-}
-.footer-address:active,
-.footer-address:hover,
-.footer-address:focus {
-    color: var(--accent-color);
 }
